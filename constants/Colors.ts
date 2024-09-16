@@ -8,12 +8,15 @@ const tintColorDark = '#fff';
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    text: '#11181C',           // Dark text for readability on light background
+    background: '#F0F4F7',     // Light background color
+    tint: '#00A3FF',           // Bright blue tint color for buttons and active states
+    icon: '#687076',           // Grey icon color for default state
+    tabIconDefault: '#687076', // Grey tab icon color for default state
+    tabIconSelected: '#00A3FF',// Blue tab icon color for selected state
+    cardBackground: '#FFFFFF', // White card background
+    cardBorder: '#E5E7EB',     // Light grey border for cards
+    accent: '#3C82F6',         // Accent color for highlights
   },
   dark: {
     text: '#ECEDEE',
